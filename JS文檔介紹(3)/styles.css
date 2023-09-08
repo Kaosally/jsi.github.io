@@ -1,0 +1,109 @@
+body *{
+    font-family:ui-monospace;;
+}
+#navbar {
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width:10px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+header{
+    font-size: 33PX;
+    margin-left: 25PX;
+}
+a{
+    text-decoration:none;
+    color: rgb(69, 65, 65);
+}
+.li-d{
+    list-style: none;
+    margin-top: 15px;
+}
+hr{
+    color: black;
+    width: 296px;
+    height: -5px;
+    margin-left: -47px;
+}
+.hr-2{
+    color: black;
+    width: 336px;
+    height: -5px;
+    margin-left: -47px;
+}
+section{
+    display: block;
+    column-gap: 20px;
+}
+.first_paragraph{
+    margin-left: 309px;
+    margin-top: 21px;
+    line-height: 27px;
+}
+.p{
+    margin-left: 38px;
+    color: #66686b;
+}
+.li{
+    margin-left: 30px;
+    color: #66686b;
+}
+code{
+    margin-left: 62px;
+    background-color: #eeeeee;
+    display: block;
+    padding: 19px;
+}
+.paragraph{
+    margin-left: 316px;
+    margin-top: 21px;
+    line-height: 27px;
+}
+.li-c::before{
+    content:"○   ";
+    line-height: 0;
+}
+.another{
+    border: white;
+}
+@media only screen and (max-width:1000px){
+    body{
+        font-size: 20px;
+    }
+    header{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    hr{
+        width: 126%;
+    }
+    .hr-2{
+        width: 123%;
+    }
+    nav{
+        width:10%;
+    }
+    #navbar{
+        min-width: 209px;
+        top: 0px;
+        left: 0px;
+        width: 10px;
+        height: 100%;
+        border-right: solid;
+        border-color: rgba(0, 22, 22, 0.4);
+    }
+    main{
+        width: 100%;
+        font-size: 25px;
+        margin-left: -98px;
+    }
+    section{
+        width: 100%;
+    }
+    .header-I{
+        font-size: 23px;
+    }
+}
